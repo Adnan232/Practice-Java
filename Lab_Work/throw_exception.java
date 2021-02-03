@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class throw_exception {
 
-    public static void g (float cgpa) {
+    public static void g (float cgpa) throws Exception {
         if (cgpa > 4.6) {
             throw new ArrayStoreException();
         }
